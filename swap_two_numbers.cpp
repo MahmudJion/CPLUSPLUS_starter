@@ -3,7 +3,13 @@ using namespace std;
 
 int main()
 {
-    int a = 5, b = 10, temp;
+    double a, b, temp;
+
+    cout << "Enter first number: ";
+    cin >> a;
+
+    cout << "Enter second number: ";
+    cin >> b;
 
     cout << "Before swapping." << endl;
     cout << "a = " << a << ", b = " << b << endl;
